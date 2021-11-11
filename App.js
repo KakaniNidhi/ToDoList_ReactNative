@@ -91,11 +91,13 @@ const styles = StyleSheet.create({
   },
   writeTaskWrapper:{
     position:'absolute',
-    bottom:60,
+    bottom:30,
     width:'100%',
     flexDirection:'row',
     justifyContent:'space-between',
     alignItems:'center',
+    marginLeft:20,
+    marginRight:20,
   },
   addWrapper:{
     width:60,
@@ -106,5 +108,6 @@ const styles = StyleSheet.create({
     alignItems:'center',
     borderColor:'#C0C0C0',
     borderWidth:1,
+    marginRight:50,
   }
 });
