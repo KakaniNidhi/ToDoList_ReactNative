@@ -26,7 +26,7 @@ export default function App() {
       
     {/* today's Tasks */}
     <View style={styles.taskWrapper}>
-      <Text stye={styles.sectionTitle}>Today's Tasks</Text>
+      <Text style={styles.sectionTitle} >Today's Tasks</Text>
         <View style={styles.items}>
           {/* This is where the tasks will go! */}
           {
